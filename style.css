@@ -1,0 +1,18 @@
+.navbar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+.errorMessage {
+	color: firebrick;
+	font-size: 90%;
+	font-style: italic;
+}
